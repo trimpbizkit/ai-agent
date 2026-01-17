@@ -7,6 +7,10 @@ class TestGetFilesInfo(unittest.TestCase):
         self.func = get_file_content
         self.wd = "calculator"
 
+    def test_lorem(self):
+        print("Result for 'lorem.txt'")
+        print(self.func("calculator", "lorem.txt"))
+
     def test_main(self):
         print("Result for 'main.py'")
         print(self.func("calculator", "main.py"))
