@@ -1,3 +1,4 @@
 MAX_CHARS = 10000
 MAX_ITERATIONS = 20
 WORKING_DIR = "./calculator"
+MODEL = "gemini-2.5-flash"
